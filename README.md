@@ -86,7 +86,7 @@ npm install grunt --save-dev
 ## Creating tasks
 
 
-```
+```javascript
 grunt.registerTask(taskName, [description, ] taskFunction)
 ```
 
@@ -99,7 +99,7 @@ module.exports = function(grunt) {
 }
 ```
 
-```
+```javascript
 $ grunt foo
   logs: "foo", undefined, undefined
 
@@ -135,7 +135,7 @@ grunt.initConfig({
 
 ## Configuring Tasks (cont)
 
-```
+```javascript
 ...
 watch: {
     options: {
@@ -159,7 +159,7 @@ watch: {
 
 ## Configuring Tasks (cont)
 
-```
+```javascript
 ...
 
 grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -201,8 +201,16 @@ Create a task (you are free to set its name) with following rules:
 
 Submit the code on your Github account
 
+
+----
+
+## Reference
+
+*http://gruntjs.com*
+
 ---
 
 ## Thank you!
 
 Questions?
+
